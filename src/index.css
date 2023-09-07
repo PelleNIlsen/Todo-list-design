@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #1e1e1e;
+    display: flex;
+     justify-content: center;
+}
