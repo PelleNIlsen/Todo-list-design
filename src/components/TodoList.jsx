@@ -83,7 +83,7 @@ const TodoList = () => {
                 <button onClick={() => setCurrentPage(prevPage => Math.min(prevPage + 1, Math.ceil(tasksData.length / tasksPerPage)))} disabled={currentPage === Math.ceil(tasksData.length / tasksPerPage)}><img alt='next' src='next.png' className='pagination-btn' /></button>
                 <button onClick={() => setCurrentPage(Math.ceil(tasksData.length / tasksPerPage))} disabled={currentPage === Math.ceil(tasksData.length / tasksPerPage)}><img alt='last' src='front.png' className='pagination-btn' /></button>
             </div>
-            <p><a target='_blank' href='https://github.com/PelleNIlsen/Todo-list-design'>View code on github</a></p>
+            <p><a target='_blank' rel='noreferrer' href='https://github.com/PelleNIlsen/Todo-list-design'>View code on github</a></p>
         </div>
     )
 }
